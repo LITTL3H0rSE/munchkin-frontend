@@ -1,0 +1,43 @@
+@import "gardevoir";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "./typography.scss";
+@import "./spacings.scss";
+
+:root {
+  --background-color: #121212;
+  --text-light-color: #E8D7F1;
+  --primary-color: #4fc2f7;
+  --complimentary-color: #f7844f;
+  --analagous-color-one: #4ff7d8;
+  --analagous-color-two: #4f6ef7;
+  --triadic-color-one: #844ff7;
+  --triadic-color-two: #f74fc2;
+  --saffron: #FACD69;
+  --black: #080708;
+  --red: #A50104;
+  --azul: #016FB9;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background: var(--background-color);
+  margin: 0;
+}
+
+p,
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}

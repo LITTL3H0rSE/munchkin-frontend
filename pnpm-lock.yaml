@@ -26,6 +26,9 @@ dependencies:
   eslint:
     specifier: ^8.52.0
     version: 8.57.1
+  gardevoir:
+    specifier: ^1.0.0
+    version: 1.0.0
   nuxt:
     specifier: ^3.15.4
     version: 3.15.4(eslint@8.57.1)(sass@1.84.0)(typescript@5.7.3)(vite@6.1.0)
@@ -3860,6 +3863,10 @@ packages:
   /fuse.js@7.1.0:
     resolution: {integrity: sha512-trLf4SzuuUxfusZADLINj+dE8clK1frKdmqiJNb1Es75fmI5oY6X2mxLVUciLLjxqw/xr72Dhy+lER6dGd02FQ==}
     engines: {node: '>=10'}
+    dev: false
+
+  /gardevoir@1.0.0:
+    resolution: {integrity: sha512-pzJpUwu56U9pqRM46gcT/sASx5FNcqWfDSQKvtr639yRFnvT8HsHuOYn3AAeYRWzTiZOaqA3sRoyZmupQX2+aw==}
     dev: false
 
   /gensync@1.0.0-beta.2:
